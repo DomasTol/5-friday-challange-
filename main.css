@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.main-content{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    width:1280px;
+    height:720px;
+    margin-left:calc(50% - 640px);
+}
+.column{
+    width:263px;
+    height:502px;
+}
+.image-container{
+    position: relative;
+}
+.number{
+    margin:0;
+    width:55px;
+    height: 55px;
+    background-color: white;
+    border-radius:50%;
+    border: rgb(81, 195, 205) 5px solid;
+    position:absolute;
+    top:-32px;
+    left:1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.icon{
+    width:230px;
+    height: 230px;
+    margin-top:32px;
+    margin-left:33px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    border-color:rgb(81, 195, 205);
+    color: rgb(81, 195, 205);
+}
+.two {
+    border-color:rgb(58, 110, 193) ;
+    color: rgb(58, 110, 193);
+}
+.three{
+    border-color:rgb(243, 77, 51);
+    color: rgb(243, 77, 51);
+}
+.four{
+    border-color:rgb(145, 145, 145);
+    color: rgb(145, 145, 145);
+}
+.rocket-home{
+    background-color:rgb(81, 195, 205); 
+}
+.head-home{
+    background-color: rgb(58, 110, 193);
+}
+.user-home{
+    background-color:rgb(243, 77, 51) ;}
+.arrow-home{
+    background-color:rgb(145, 145, 145) ;}
+.rocket{
+     width:79%;
+}
+.head{
+    width: 80%;
+}
+.user{
+    width:65%;
+}
+.arrow{
+    width:65%;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight:500;
+    margin-left:33px;
+    margin-top:45px;
+    color:#F34D33;
+}
+.info{
+    margin-left:33px;
+    font-size:16px;
+    font-weight:300;
+    line-height: 1.6;
+}
